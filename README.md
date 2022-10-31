@@ -42,7 +42,7 @@ You are a data analyst who has been provided with sample data and a mock-up dash
 5. Properties that cost up to 13,000 per guest had 0 cancelled bookings.
 6. Increase the average ratings of Atliq seasons and Atliq Grands to 4, this could be done by improving on the services to customers.
 
-## Atliq Mart Analysis
+## Atliq Mart Supply Chain Analysis
 
 ### Problem
 AtliQ Mart is a growing FMCG manufacturer headquartered in Gujarat, India. It is currently operational in three cities Surat, Ahmedabad and Vadodra. They want to expand to other metro/tier1 cities in the next 2 years.
