@@ -41,3 +41,37 @@ You are a data analyst who has been provided with sample data and a mock-up dash
 4. Bookings with an average revenue per guest of 5000 or less account for 40% of total bookings, 78% of cancelled bookings, 27% of total realized revenue, and 71% of total lost revenue. 
 5. Properties that cost up to 13,000 per guest had 0 cancelled bookings.
 6. Increase the average ratings of Atliq seasons and Atliq Grands to 4, this could be done by improving on the services to customers.
+
+## Atliq Mart Analysis
+
+### Problem
+AtliQ Mart is a growing FMCG manufacturer headquartered in Gujarat, India. It is currently operational in three cities Surat, Ahmedabad and Vadodra. They want to expand to other metro/tier1 cities in the next 2 years.
+
+AtliQ Mart is currently facing a problem where a few key customers did not extend the annual contract due to service issues. It is speculated that some of the essential products were either not delivered on time or not delivered in full over a continued period, which could have resulted in bad customer service. Management wants to fix this issue before expanding to other cities and requested their supply chain analytics team to track the ’On time’ and ‘In Full’ delivery service level for all the customers on a daily basis so that they can respond swiftly to these issues.
+
+The Supply Chain team decided to use a standard approach to measure the service level in which they will measure ‘on-time delivery (OT) %’, ‘In-full delivery (IF) %’ and OnTime in full (OTIF) % of the customer orders on a daily basis against the target service level set for each customer.
+
+### Task:  
+Create the metrics according to the metrics list.
+Create a dashboard according to the requirements provided by stakeholders in the business review meeting. You will be provided with the transcript of this business review meeting in the form of a comic.
+Create relevant insights that are not provided in the metric list/stakeholder meeting.
+
+### Dataset Overview
+1. Diary products category account for 59% of all orders.
+2. 22% of all orders are placed by the top 2 customers by order quantity - Lotus Mart & Acclaimed stores. 53% of all orders are placed by the top 6 customers.
+3. Orders from customers in Vadodara are below the average order by city.
+4. The average delay in delivery time is half a day, while orders from the top 2 customers (>3k orders) are delivered approximately 1.3 days late on average.
+5. Order line fill rate and volume fill rate don't vary with respect to Day of the week in which orders were placed.
+
+### KPI Analysis
+1. None of the KPI targets were met, this might explain why costumers are not renewing their contracts. Customer churn data will be required to prove a correlation between the KPIs and customer churn.
+2. The top 2 customers by order quantity - Lotus Mart & Acclaimed stores - account for 22% of all orders yet the "on time and in full" deliveries for these customers is amongst the lowest - less than 17%.
+3. There is little or no correlation between the KPIs being tracked and the product category or the day of the week in which the order was placed.
+4. The Latest delivery arrived 3 days late and this occurred for over 2600 orders.
+
+### Recommendations
+1. Collect Customer churn data to ascertain a correlation between customer churn and the KPIs being tracked.
+2. Improve on delivery time for customers with large orders. Customers with Larger orders (>3k)  are likely to see their orders arrive 3 times later than the average customer. 
+3. Ensure the Latest deliveries don't exceed 1 day.
+4. Re-evaluate how delivery timelines are estimated in order to set realistic delivery timelines.
+5. An overall improvement on "On Time" and "In Full". "In Full" KPI can be addressed by making improvements on QA/QC in the manufacturing process to ensure orders are complete.
