@@ -74,4 +74,4 @@ Create relevant insights that are not provided in the metric list/stakeholder me
 2. Improve on delivery time for customers with large orders. Customers with Larger orders (>3k)  are likely to see their orders arrive 3 times later than the average customer. 
 3. Ensure the Latest deliveries don't exceed 1 day.
 4. Re-evaluate how delivery timelines are estimated in order to set realistic delivery timelines.
-5. An overall improvement on "On Time" and "In Full". "In Full" KPI can be addressed by making improvements on QA/QC in the manufacturing process to ensure orders are complete.
+5. An overall improvement on "On Time" and "In Full" KPIs. "In Full" KPI can be addressed by making improvements on QA/QC in the manufacturing process to ensure orders are complete.
